@@ -3,7 +3,8 @@ body{
 	
 }
 
-#wapka{
+
+#header{
 	background-image:url(1.jpg);
 	border-radius:15px;
 	width:1260px;
@@ -12,9 +13,18 @@ body{
 	
 }
 
+#header a:hover{
+	background-color:#D1C0BD;
+}
+
+#header a{
+	font-size:25px;
+	color:white;
+	
+}
 
 
-.text{
+.navigation{
 	padding:25px;
 	position:absolute;
 	transform:translate(300px,4px);	
@@ -22,13 +32,8 @@ body{
 	text-indent:250px;
 }
 
-#wapka a{
-	font-size:25px;
-	color:white;
-	
-}
 
-.ikonka{
+.logo{
 	border-radius:18px;
 	height:60px;
 	width:60px;
@@ -36,7 +41,7 @@ body{
 	transform:translate(18px,12px);
 }
 
-.saturn{
+.site_name{
 	position:absolute;
 	transform:translate(94px,-34px);
 	color:white;
@@ -44,16 +49,14 @@ body{
 	font-family:ALGERIAN;
 }
 
+
 a:link{
 	text-decoration:none;
 
 }
 
-#wapka a:hover{
-	background-color:#D1C0BD;
-}
 
-#nav{
+#aside{
 	color:white;
 	font-size:18px;
 	padding:7px;
@@ -65,15 +68,16 @@ a:link{
 	transform:translate(990px,25px);
 }
 
-#nav a{
+#aside a{
 	color:white;
 }
 
-#nav a:hover{
+#aside a:hover{
 	text-decoration:underline;
 }
 
-#rasulka{
+
+#dispatch{
 	color:white;
 	padding:9px;
 	background-image:url(5.jpg);
@@ -84,7 +88,8 @@ a:link{
 	transform:translate(990px,200px);
 }
 
-#zaglav{
+
+#title{
 	color:white;
 	font-size:44px;
 	position:absolute;
@@ -92,7 +97,8 @@ a:link{
 	font-family:Impact, fantasy;
 }
 
-#planet{
+
+#aside2{
 	color:white;
 	padding:9px;
 	background-image:url(5.jpg);
@@ -104,15 +110,16 @@ a:link{
 	
 }
 
-#planet a{
+#aside2 a{
 	color:white;
 }
 
-#planet a:hover{
+#aside2 a:hover{
 	text-decoration:underline;
 }
 
-#infa{
+
+#article{
 	padding:10px;
 	background-image:url(5.jpg);
 	width:680px;
@@ -125,7 +132,8 @@ a:link{
 	font-family:Gill Sans, sans-serif;
 }
 
-#pic1{
+
+#img1{
 	background-image:url(6.jpg);
 	width:800px;
 	height:170px;
@@ -137,7 +145,7 @@ a:link{
 	
 }
 
-#pic2{
+#img2{
 	background-image:url(7.jpg);
 	width:800px;
 	height:170px;
@@ -149,7 +157,8 @@ a:link{
 	
 }
 
-#avtor{
+
+#copyrights{
 	font-size:25px;
     color:white;
 	padding:9px;
@@ -162,8 +171,9 @@ a:link{
 	opacity:0.5;
 }
 
-#podval{
-	font-size:15px;
+
+#footer{
+	font-size:16px;
 	color:white;
 	padding:5px;
 	background-image:url(5.jpg);
@@ -172,4 +182,6 @@ a:link{
 	height:40px;
 	position:absolute;
 	transform:translate(5px,875px);
+	text-indent:60px;
+	word-spacing:300px;
 }
